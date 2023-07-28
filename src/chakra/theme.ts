@@ -15,10 +15,10 @@ export const theme = extendTheme({
     body: `'Open Sans', sans-serif`,
   },
   styles: {
-    global: () => ({
+    global: {
       body: {
-        bg: 'gray-200'
+        bg: 'gray.200'
       }
-    })
+    },
   }
 })
