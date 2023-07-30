@@ -1,12 +1,12 @@
 import { Flex } from "@chakra-ui/react"
-import { AuthButtons } from "./AuthButtons"
+import { Buttons } from "./Buttons"
 
 export const RightCorner = () => {
   return (
     <>
       {/* <AuthModal /> */}
       <Flex justify='center' align='center'>
-        <AuthButtons />
+        <Buttons />
       </Flex>
     </>
   )
